@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: hsl(217, 54%, 11%);
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100vh;
+  background-color: hsl(215, 15%, 46%);
+  margin: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  
+}
+
+.equilibrium  {
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+h3 {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.paragraph-info {
+  color: rgb(21, 13, 13);
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(21, 13, 13);
+  font-size: 18px;
+  padding-bottom: 30px;
+
+}
+
+.eth  {
+  color: hsl(178, 100%, 50%)  ;
+}
+.day {
+  color:hsl(215, 51%, 70%);
+}
+
+
+
+.eth .iconeth {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.day .iconclock {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.creation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.avatar-image{
+  width: 80px;
+  justify-content: flex-start;
+}
+
+.paragraph-creator{
+  color: hsl(217, 24%, 15%) ;
+}
+
+span {
+  color: white ;
+}
+
+
+@media only screen and (max-width: 1070px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h3 {
+    font-size: 26px;
+  }
+
+  .paragraph-info {
+    font-size: 20px;
+  }
+
+  .price {
+    font-size: 10px;
+    display: block;
+    line-height: 10px;
+  }
+
+  .card {
+    height: 60%;
+
+  }
+
+}
